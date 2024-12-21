@@ -10,7 +10,6 @@ function Projects() {
         <div className="projects-grid">
           {projectsData.map((project) => (
             <div key={project.id} className="project-card">
-              <img src={project.image} alt={project.title} />
               <div className="project-info">
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
